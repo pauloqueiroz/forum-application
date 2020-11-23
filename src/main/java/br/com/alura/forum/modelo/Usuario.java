@@ -120,4 +120,12 @@ public class Usuario implements UserDetails {
 		return true;
 	}
 
+	public List<Perfil> getPerfis() {
+		return perfis;
+	}
+
+	public void setPerfis(List<Perfil> perfis) {
+		this.perfis = perfis;
+	}
+
 }
